@@ -13,7 +13,7 @@ public class FabricaDAOTeste {
 		FabricaDAO dao = (FabricaDAO) DAOFactory.getFabricaDAO();
 		
 		//Cadastrar um produto
-		Fabrica fabrica = new Fabrica(0,"Fabrica Brasil","46555233/0001","Tomates","América do Sul", "Brasil", "São Paulo", "São Paulo", "Av.Paulista, 222", 3, "Produção 24hs");
+		Fabrica fabrica = new Fabrica(0,"Fabrica Brasileira","46555233/0001","Tomates","América do Sul", "Brasil", "São Paulo", "São Paulo", "Av.Paulista, 222", 3, "Produção 24hs");
 		try {
 			dao.cadastrar(fabrica);
 			System.out.println("Produto cadastrado.");
